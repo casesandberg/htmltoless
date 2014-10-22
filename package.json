@@ -1,0 +1,26 @@
+{
+  "name": "htmltoless",
+  "description": "Converts HTML to LESS",
+  "version": "0.0.1",
+  "author": {
+    "name": "case sandberg",
+    "email": "case@casesandberg.com"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casesandberg/htmltoless"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "main": "./lib/htmltoless",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "htmlparser": "^1.7.7"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "should": "^4.1.0"
+  }
+}
