@@ -384,7 +384,6 @@ describe('Remove Duplicate', function(){
         }];
 
         htmltoless.removeDuplicates(dirty).should.eql(clean);
-
     });
 
 });
@@ -611,10 +610,6 @@ describe('End To End', function(){
                 '\t\t}' + '\n' +
             '\t}' + '\n' +
         '}';
-
-        // console.log(htmltoless.parse(dirty));
-        //
-        // console.log(clean);
 
         htmltoless.parse(dirty).should.eql(clean);
     });
